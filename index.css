@@ -1,0 +1,132 @@
+body, html{
+  margin:0;
+  justify-content:center;
+  align-items:center;
+}
+body{
+  background-image: url(https://thumb.ac-illust.com/t/99/994c90d60faed05cca3d21d27b193efb_t.jpeg);
+  background-size: 100% auto;
+  
+}
+.navbar{
+  background-color: #ffdbde;
+}
+
+.card-body{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  border-radius: 10px;
+  transition:0.5s;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  
+}
+.card:hover{
+  color:rgb(255, 187, 0);
+  opacity: 0.8;
+  box-shadow: 5px 5px 60px rgba(0,0,0,0.4);
+  transform: translate(-5px,-5px);
+  position: relative;
+  
+}
+.fa-heart,.fa-heart-broken{
+  color: #f2b0b0;
+  cursor: pointer;
+  font-size: 50px;
+  position: absolute;
+  margin-left: 350px ;
+  margin-top: -400px;
+  right:50px;
+  bottom: 90px; 
+  z-index: 10;
+  transition: 0.5s ;
+} 
+.fa-heart:hover,.fa-heart-broken:hover{
+  color : red;
+  transform: scale(1.5)
+}
+
+.btninfo{
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  text-align:center;
+  margin: auto;
+  background-color: #ffdbde;
+  border-color: salmon;
+  transition:0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  position: relative;
+  color: rgba(0,0,0,0.6)
+}
+
+
+.btninfo:hover{
+  background-color: #f4a1a8;
+  border-color: salmon;
+  color: white;
+}
+
+.filterOfGender{
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+}
+.filterOfGender label {
+  margin-left: 5px;
+}
+
+input[type="radio"] {
+  appearance: none;
+  margin-left: 10px;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid salmon;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+input[type="radio"]:checked {
+  background-color: #f7969e;
+  border-color: salmon;
+}
+
+.selectedTag{
+  background-color: #f24;
+  color: white;
+  position: absolute;
+  left:0;
+  top:0;
+  letter-spacing: 2px;
+  font-size: large;
+  padding: 5px 60px;
+  margin-bottom: -25px;
+  transform: rotate(-45deg) translate(-50px, -10px);
+  z-index: 50;
+  
+}
+
+.mar{
+  opacity: 0.7;
+}
+.male,.women,.all{
+  margin-left: 5px;
+}
+
+.modalImg{
+  border-radius: 50%;
+}
+.modal-body{
+  background-color: #f7969e;
+}
