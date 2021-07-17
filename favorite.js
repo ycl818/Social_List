@@ -16,6 +16,7 @@ function renderSocialList(data){
   data.forEach((item) => {
     rawHTML += `
             <div class="card mx-auto mb-5 bg-light px-0 " id="${item.id}"  style="width: 17rem" >
+              <div class='selectedTag'> Liked!</div>
               <img src="${item.avatar}" class="img-fluid"   alt="...">
 
               <div class=" card-bodycard-title d-flex flex-column justify-content-center align-items-center">
