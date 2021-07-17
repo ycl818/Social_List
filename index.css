@@ -26,14 +26,15 @@ body{
   display: flex;
   justify-content: center;
   overflow: hidden;
-  
+  opacity: 0.9;
 }
 .card:hover{
   color:rgb(255, 187, 0);
-  opacity: 0.8;
+  opacity: 1;
   box-shadow: 5px 5px 60px rgba(0,0,0,0.4);
   transform: translate(-5px,-5px);
   position: relative;
+  border: solid 5px rgb(255, 187, 0) ;
   
 }
 .fa-heart,.fa-heart-broken{
